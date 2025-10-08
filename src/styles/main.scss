@@ -1,3 +1,62 @@
+html {
+  font-family: "Poppins", sans-serif;
+  line-height: 140%;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
 body {
   margin: 0;
+}
+
+.header {
+  box-sizing: border-box;
+  height: 100Vh;
+  padding: 24px 20px 88px;
+  background-image: url('../images/header-bg-mobile.png');
+  background-size: cover;
+  background-position: right;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  line-height: 0;
+  }
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon--phone {
+  background-image: url('../images/icons/icon-phone-call.png');
+}
+
+.icon--menu {
+  background-image: url('../images/icons/icon-burger-menu.png');
+}
+
+.header__title {
+  text-align: center;
+  margin: 0;
+  font-style: bold;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  line-height: 100%;
 }
