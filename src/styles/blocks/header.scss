@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: right;
 
-  @include onTablet {
+  @include on-tablet {
     background-position: center;
   }
 
@@ -24,7 +24,7 @@
     letter-spacing: -1.5px;
     line-height: 100%;
 
-    @include onTablet {
+    @include on-tablet {
       font-size: 64px;
     }
   }
@@ -32,7 +32,7 @@
   &__bottom {
     padding-bottom: 88px;
 
-    @include onTablet {
+    @include on-tablet {
       padding-bottom: 130px;
     }
   }
