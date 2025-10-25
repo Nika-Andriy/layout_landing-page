@@ -1,0 +1,15 @@
+.footer {
+  min-height: 200px;
+  background-image: url('../images/footer-bcg.png');
+  background-size: cover;
+  background-position: center;
+  transition: min-height .3s;
+
+  @include onTablet {
+    min-height: 480px;
+  }
+
+  @include onDesktop {
+    min-height: 555px;
+  }
+}
