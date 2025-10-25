@@ -21,6 +21,9 @@
   }
 
   &--close {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     background-image: url('../images/icons/icon-close.svg');
   }
 }

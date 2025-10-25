@@ -1,9 +1,12 @@
 .footer {
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
   min-height: 200px;
   background-image: url('../images/footer-bcg.png');
   background-size: cover;
   background-position: center;
-  transition: min-height .3s;
+  transition: min-height 0.3s;
 
   @include on-tablet {
     min-height: 480px;
