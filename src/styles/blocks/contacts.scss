@@ -31,6 +31,10 @@
     font-size: 14px;
     line-height: 20px;
 
+    &:focus {
+      outline: none; /* Прибирає рамку при фокусі */
+    }
+
     &--huge {
       height: 148px;
       border-radius: 16px;
@@ -112,6 +116,11 @@
   }
 
   &__address {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &__info {
     text-decoration: none;
     color: #fff;
   }
