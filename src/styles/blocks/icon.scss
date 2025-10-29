@@ -14,6 +14,7 @@
   }
 
   &__number {
+    display: none;
     text-decoration: none;
     color: #FFF;
     transform: translate(12px, 4px);
@@ -23,9 +24,12 @@
     transition: all 0.3s;
 
     &.is-visible {
-      opacity: 1;
-      visibility: visible;
-      pointer-events: auto;
+      @include on-tablet {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+      }
     }
   }
 
